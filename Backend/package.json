@@ -1,0 +1,28 @@
+{
+  "name": "oober",
+  "version": "1.0.0",
+  "description": "Programming Project 1 - Ooober CAPSTONE",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.4.7",
+    "@google-cloud/firestore": "^4.14.1",
+    "@google-cloud/storage": "^5.14.1",
+    "@sendgrid/mail": "^7.4.6",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
